@@ -168,3 +168,4 @@ D:\DesarrolloPruebas\repos\GitHub\MyApiProject\MyApiProject.API\obj\Debug\net8.0
 D:\DesarrolloPruebas\repos\GitHub\MyApiProject\MyApiProject.API\obj\Debug\net8.0\ref\MyApiProject.API.dll
 D:\DesarrolloPruebas\repos\GitHub\MyApiProject\MyApiProject.API\bin\Debug\net8.0\MediatR.dll
 D:\DesarrolloPruebas\repos\GitHub\MyApiProject\MyApiProject.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\DesarrolloPruebas\repos\GitHub\MyApiProject\MyApiProject.API\obj\Debug\net8.0\MyApiProject.API.sourcelink.json

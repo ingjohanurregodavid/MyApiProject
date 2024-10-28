@@ -1,6 +1,9 @@
-﻿namespace MyApiProject.API.Queries
+﻿using MediatR;
+using MyApiProject.API.DTOs;
+
+namespace MyApiProject.API.Queries
 {
-    public class GetOrdersQuery
+    public class GetOrdersQuery : IRequest<IEnumerable<OrderListDto>>
     {
     }
 }

@@ -66,5 +66,10 @@ namespace MyApiProject.API.Repositories
         {
             await _context.Orders.AddAsync(order);
         }
+
+        public async Task<IEnumerable<Order>> GetAllAsync()
+        {
+            return await _context.Orders.ToListAsync();
+        }
     }
 }

@@ -27,9 +27,9 @@ namespace MyApiProject.API.Controllers
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
-            var query = new GetProductsQuery();
-            var products = await _mediator.Send(query);
-            return Ok(products);
+            var query = new GetOrdersQuery();
+            var Orders = await _mediator.Send(query);
+            return Ok(Orders);
         }
     }
 }
